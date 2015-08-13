@@ -6,8 +6,12 @@ $(document).ready(function(){
          flipTheLightSwitch();
 	});
 
+    $("ball").click(function(){
+    	$("#ball").animate( {left:"+=100"} );
+    });
 
-	function flipTheLightSwitch(){
+
+     function flipTheLightSwitch(){
        if(isLightOn){
 
        	   $("body").css("background","black");
