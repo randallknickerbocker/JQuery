@@ -10,6 +10,14 @@ $(document).ready(function(){
     	$("#ball").animate( {left:"+=100"} );
     });
 
+    $("box").hover(function(){
+    	 $("box").css ("color","pink");
+         }, fucntion(){
+         $("box").css("color","purple")
+
+     
+    
+    
 
      function flipTheLightSwitch(){
        if(isLightOn){
